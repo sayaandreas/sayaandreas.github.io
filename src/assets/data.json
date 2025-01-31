@@ -1,0 +1,163 @@
+{
+  "personal": {
+    "firstName": "Andreas",
+    "lastName": "",
+    "heading": "Software Engineer",
+    "email": "sayaandreas@gmail.com",
+    "address": "Jakarta",
+    "phone": "085272717137",
+    "avatar": "https://www.davwebdev.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.a43b47c2.webp&w=640&q=75"
+  },
+  "education": [
+    {
+      "id": 684083,
+      "degree": "Bachelors",
+      "startDate": "June 2014",
+      "completionDate": "April 2018",
+      "institution": "Universitas Ciputra",
+      "location": "Surabaya",
+      "score": "3.32",
+      "scoreType": "GPA",
+      "studyType": "Computer Science",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:30.445Z",
+      "updatedAt": "2025-01-26T17:32:30.445Z"
+    }
+  ],
+  "work": [
+    {
+      "id": 415049,
+      "description": [
+        "Developed a CMS with Strapi, centralizing asset management to reduce duplication and storage costs, and increasing efficiency across all platforms.",
+        "Developed a self-guided onboarding web application built with React and TypeScript, allowing customers to effortlessly apply for loan on their own through their devices.",
+        "Developed an internal UI components that are designed to be used across different parts of our mobile web apps, promoting consistency and efficiency in design.",
+        "Developed a web app, mainly built with React and Go, for customers to apply for bank products through relationship managers, transforming manual onboarding processes.",
+        "Developed a web app for file sharing with scoped access control and hierarchical approval features."
+      ],
+      "currentJob": false,
+      "role": "Software Engineer",
+      "location": "Jakarta",
+      "company": "OCBC",
+      "startDate": "Jul 2020",
+      "endDate": "Present",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:34.538Z",
+      "updatedAt": "2025-01-26T17:32:34.538Z"
+    },
+    {
+      "id": 415048,
+      "description": [
+        "Developed the Ralali.com B2B Marketplace mobile application, delivering a seamless platform for business users to connect, transact, and manage their operations efficiently."
+      ],
+      "currentJob": false,
+      "role": "Software Engineer",
+      "location": "Jakarta",
+      "company": "Ralali.com",
+      "startDate": "Feb 2020",
+      "endDate": "Apr 2020",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:34.538Z",
+      "updatedAt": "2025-01-26T17:32:34.538Z"
+    },
+    {
+      "id": 415047,
+      "description": [
+        "Developed an internal API to monitor key business metrics, including sales performance, pricing trends, and warehouse stock levels, enabling data access and informed decision-making for operational efficiency.",
+        "Developed a mobile applications using React Native to monitor key business metrics."
+      ],
+      "currentJob": false,
+      "role": "Software Engineer",
+      "location": "Jakarta",
+      "company": "PT. Indomarco Prismatama",
+      "startDate": "Jan 2019",
+      "endDate": "Jan 2020",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:34.538Z",
+      "updatedAt": "2025-01-26T17:32:34.538Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": 5662769,
+      "name": "KTA Online OCBC",
+      "description": "A self-guided onboarding web application built with React and TypeScript, allowing customers to effortlessly apply for loan on their own through their devices.",
+      "keywords": ["React", "Typescript"],
+      "url": "https://onboarding.ocbc.id/lending/kta",
+      "source": "",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:46.123Z",
+      "updatedAt": "2025-01-26T17:32:46.123Z"
+    },
+    {
+      "id": 566270,
+      "name": "Personal Website",
+      "description": "My personal website. Built with Vite and TypeScript, deployed with Github Pages. You are here now 😎.",
+      "keywords": ["React", "Typescript", "Vite"],
+      "url": "https://sayaandreas.github.io",
+      "source": "https://github.com/sayaandreas/sayaandreas.github.io",
+      "sortOrderId": 0,
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:46.123Z",
+      "updatedAt": "2025-01-26T17:32:46.123Z"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1379019,
+      "skillType": "programming",
+      "skillValues": ["Javascript", "Typescript", "Go", "HTML", "CSS"],
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:18.945Z",
+      "updatedAt": "2025-01-26T17:32:18.945Z"
+    },
+    {
+      "id": 1379020,
+      "skillType": "frameworks",
+      "skillValues": ["React", "Strapi", "Next.js", "Node.js", "TailwindCSS"],
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:18.945Z",
+      "updatedAt": "2025-01-26T17:32:18.945Z"
+    },
+    {
+      "id": 1379021,
+      "skillType": "database",
+      "skillValues": ["Postgres", "Redis", "MySQL"],
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:18.945Z",
+      "updatedAt": "2025-01-26T17:32:18.945Z"
+    },
+    {
+      "id": 1379022,
+      "skillType": "tools",
+      "skillValues": ["Git", "VS Code", "Docker", "AWS S3", "Jira", "Figma"],
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:18.945Z",
+      "updatedAt": "2025-01-26T17:32:18.945Z"
+    }
+  ],
+  "socials": [
+    {
+      "id": 475387,
+      "network": "GitHub",
+      "username": "",
+      "url": "https://github.com/sayaandreas",
+      "resumeId": 344887,
+      "createdAt": "2025-01-26T17:32:24.535Z",
+      "updatedAt": "2025-01-26T17:32:24.535Z"
+    },
+    {
+      "id": 477607,
+      "network": "Linkedin",
+      "username": "",
+      "url": "https://www.linkedin.com/in/sayaandreas/",
+      "resumeId": 344887,
+      "createdAt": "2025-01-31T04:38:40.492Z",
+      "updatedAt": "2025-01-31T04:38:40.492Z"
+    }
+  ]
+}

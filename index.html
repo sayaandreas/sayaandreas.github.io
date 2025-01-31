@@ -1,12 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Andreas' Home Page</title>
+    <meta
+      name="description"
+      content="Welcome to my little corner of the web. Here, you can get to know a bit
+      about my journey, check out my projects, and see what I've been up to."
+    />
+
+    <meta property="og:title" content="Andreas' Home Page" />
+    <meta
+      property="og:description"
+      content="Welcome to my little corner of the web. Here, you can get to know a bit
+      about my journey, check out my projects, and see what I've been up to."
+    />
+
+    <style>
+      #preloader {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.5s ease-out;
+        z-index: 9999;
+      }
+
+      #preloader .spinner {
+        width: 40px;
+        height: 40px;
+        position: relative;
+      }
+
+      #preloader .cube1,
+      #preloader .cube2 {
+        background-color: #333;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        animation: sk-cubemove 1.8s infinite ease-in-out;
+      }
+
+      #preloader .cube2 {
+        animation-delay: -0.9s;
+      }
+
+      #preloader.hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      @-webkit-keyframes sk-cubemove {
+        25% {
+          -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+        }
+        50% {
+          -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+        }
+        75% {
+          -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg)
+            scale(0.5);
+        }
+        100% {
+          -webkit-transform: rotate(-360deg);
+        }
+      }
+
+      @keyframes sk-cubemove {
+        25% {
+          transform: translateX(42px) rotate(-90deg) scale(0.5);
+          -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+        }
+        50% {
+          transform: translateX(42px) translateY(42px) rotate(-179deg);
+          -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+        }
+        50.1% {
+          transform: translateX(42px) translateY(42px) rotate(-180deg);
+          -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+        }
+        75% {
+          transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+          -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg)
+            scale(0.5);
+        }
+        100% {
+          transform: rotate(-360deg);
+          -webkit-transform: rotate(-360deg);
+        }
+      }
+    </style>
   </head>
   <body>
+    <div id="preloader">
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
